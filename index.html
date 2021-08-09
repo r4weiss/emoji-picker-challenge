@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Baloo&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<h1>My Emojis</h1>
+		<div id="emoji-wrapper">
+			<h3>Likes</h3>
+			<div id="emoji-container-1" class="emoji-container"></div>
+		</div>
+
+		<input type="text" id="emoji-input" placeholder="type an emoji 🎉" />
+		<button id="emoji-btn">😎</button>
+		<!-- <input type="text" /> -->
+
+		<div class="buttons-wrapper">
+			<button id="load-btn">Load Saved</button>
+			<button id="push-btn">Add</button>
+			<!-- <button id="unshift-btn">Add to beginning</button> -->
+		</div>
+
+		<div class="buttons-wrapper">
+			<button id="pop-btn">Remove</button>
+			<!-- <button id="shift-btn">Remove from beginning</button> -->
+			<button id="clear-btn">Clear all</button>
+		</div>
+
+		<div class="message-wrapper">
+			<p id="error-msg"></p>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.0.3/dist/index.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
